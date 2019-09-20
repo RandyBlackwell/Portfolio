@@ -1,0 +1,52 @@
+body {
+    font-family: 'Architects Daughter', cursive;
+}
+
+#navbar {
+    margin: 0 auto;
+    text-decoration: none;
+    display: inline-block;
+    padding: 2px 5px
+    
+}
+
+#welcome-section {
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+#projects {
+    background-color: #000;
+    width: 90vw;
+}
+
+#project-title {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:    "header header"
+                            "row1 ."
+                            ". row2"
+                            "row3 .";
+}
+
+#project-header {
+    display: grid;
+    grid-area: header;
+}
+
+#row1 {
+    display: grid;
+    grid-area: row1;
+}
+
+#row2 {
+    display: grid;
+    grid-area: row2;
+}
+
+#row3 {
+    display: grid;
+    grid-area: row3;
+}
