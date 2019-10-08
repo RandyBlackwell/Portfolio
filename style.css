@@ -45,6 +45,7 @@ h1 {
     color: #FFF;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    justify-items: center;
     grid-template-areas:    "header header"
                             "row1 ."
                             ". row2"
@@ -66,17 +67,31 @@ h1 {
 #gord-pic {
     height: 400px;
     width: auto;
+    border: solid white 2px;
+    border-radius: 4px;
+    opacity: 0.5;
 }
 
 #nikon-pic {
     height: 400px;
     width: auto;
+    border: solid white 2px;
+    border-radius: 4px;
+    opacity: 0.5;
 }
 
 #pilot-pic {
     height: 400px;
     width: auto;
+    border: solid white 2px;
+    border-radius: 4px;
+    opacity: 0.5;
 }
+
+#projects img:hover {
+    opacity: 1.0;
+}
+
 #row1 {
     display: grid;
     grid-area: row1;
