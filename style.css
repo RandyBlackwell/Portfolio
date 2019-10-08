@@ -60,11 +60,11 @@ h1 {
 #Project-header {
     display: grid;
     grid-area: header;
-    width: 80px;
 }
 
-img {
-    width: 50px;
+#gord-pic {
+    height: 400px;
+    width: auto;
 }
 #row1 {
     display: grid;
