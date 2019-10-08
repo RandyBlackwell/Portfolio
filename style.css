@@ -31,16 +31,24 @@ ul {
 
 #welcome-section {
     height: 100vh;
-    font-family: 'Open Sans', sans-serif;
-    background-color: darkslategrey;
+    background-image: url("./images/background.jpg");
+    opacity: 0.8;
     font-size: 2rem;
-
+        
 }
+
 h1 {
     margin: 0;
+        
 }
-#projects {
+
+#webdev {
+    font-size: 3rem;
+}
+
+#project-tile {
     background-color: #000;
+    font-family: 'Ubuntu Condensed', sans-serif;
     width: 90vw auto;
     color: #FFF;
     display: grid;
@@ -50,12 +58,6 @@ h1 {
                             "row1 ."
                             ". row2"
                             "row3 .";
-}
-
-#project-title {
-    font-family: 'Ubuntu Condensed', sans-serif;
-    
-    
 }
 
 #Project-Header {
@@ -88,7 +90,7 @@ h1 {
     opacity: 0.5;
 }
 
-#projects img:hover {
+#project-tile img:hover {
     opacity: 1.0;
 }
 
@@ -105,4 +107,8 @@ h1 {
 #row3 {
     display: grid;
     grid-area: row3;
+}
+
+#profile-link {
+    text-decoration: none;
 }

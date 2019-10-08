@@ -3,14 +3,14 @@
     <head>
         <link rel="stylesheet" type="text/css" href="style.css">
         <link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Open+Sans|Ubuntu+Condensed&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/1f037c0174.js" crossorigin="anonymous"></script>       
         <title>Randy Blackwell - Web Developer</title>
     </head>
     <body>
         <!-- Navigation Menu -->
         <nav id="navbar">
             <ul>
-                <li><a href="#welcome-section">Welcome</a></li>
-                <li><a href="#projects">Projects</a></li>
+                <li><a href="#project-tile">Projects</a></li>
                 <li><a href="#">Nav1</a></li>
                 <li><a href="#">Nav1</a></li>
                 <li><a href="#">Nav1</a></li>
@@ -18,11 +18,13 @@
         </nav>
         <!-- Welcome Section -->
         <div id="welcome-section">
-            <h1 id="top-name">Randy Blackwell</h1>
-            <p>Web Developer</p>
+            <div id="Name-Title">
+                <h1 id="top-name">Randy Blackwell</h1>
+                <p id="webdev">Web Developer</p>
+            </div>
         </div>
         <!-- Project Section -->
-        <div id="projects">
+        <div id="project-tile">
             
                 <p id="Project-Header">A collection of my work.</p>
                 <a href="https://codepen.io/AirspeedX/full/LYPmJPK" id="row1" target="_blank"><img src="./images/nikonz6.jpg" alt="Nikon Z6 Website" id="nikon-pic"></a><br>
@@ -33,8 +35,8 @@
         <!-- External Connect Section -->
         <div>
             <p>My Personal Online Presence</p>
-            <a href="https://github.com/RandyBlackwell" target="_blank" id="profile-link">GitHub</a>
-            <a href="https://www.freecodecamp.org/randyblackwell" target="_blank" id="profile-link">FreeCodeCamp</a>
+            <a href="https://github.com/RandyBlackwell" target="_blank" id="profile-link"><i class="fab fa-github"></i>GitHub</a>
+            <a href="https://www.freecodecamp.org/randyblackwell" target="_blank" id="profile-link"><i class="fab fa-free-code-camp"></i>FreeCodeCamp</a>
         </div>
 
     </body>
