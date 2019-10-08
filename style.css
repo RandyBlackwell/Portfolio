@@ -57,12 +57,23 @@ h1 {
     
 }
 
-#Project-header {
+#Project-Header {
     display: grid;
     grid-area: header;
+    font-size: 1.5rem;
 }
 
 #gord-pic {
+    height: 400px;
+    width: auto;
+}
+
+#nikon-pic {
+    height: 400px;
+    width: auto;
+}
+
+#pilot-pic {
     height: 400px;
     width: auto;
 }
